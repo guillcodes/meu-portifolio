@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio GM</title>
+    <style>
+        /* Adicionando rolagem suave com CSS */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="interface-menu">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo .png" alt="Logotipo" class="logo-img">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#topo">Início</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portifolio">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="#formulario">
+                    <button>Contato</button>
+                </a>
+            </div>
+        </div>
+        <div class="menu-mobile">
+            <div class="btn-fechar">
+                <i class="bi bi-x-lg"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#topo">Início</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portifolio">Projetos</a></li>
+                    <li><a href="#formulario">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="btn-abir-menu" id="btn-menu">
+            <i class="bi bi-list"></i>
+        </div>
+        <div class="overlay-menu"></div>
+    </header>
+    <main>
+        <section class="topo-do-site" id="topo">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>TRANSFORMANDO IDEIAS EM REALIDADE<span>!!!</span></h1>
+                        <p> Criatividade e inovação caminham juntas para dar vida às suas ideias. Com uma abordagem única e focada em design, estou preparado para criar a presença online que você sempre sonhou. Vamos transformar seus projetos em algo incrível! </p>
+                        <div class="btn-contato">
+                            <a href="#formulario">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="img/foto.jpg" alt="Imagem de guilherme candida">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="especialidades" id="habilidades">
+            <h2 class="titulo">Minhas <span>Habilidades</span></h2>
+            <div class="flex">
+                <div class="especialidades-box">
+                    <i class="bi bi-code"></i>
+                    <h3>Website</h3>
+                    <p>Um website é a base digital onde sua marca ganha visibilidade!</p>
+                </div>
+                <div class="especialidades-box">
+                    <i class="bi bi-cart"></i>
+                    <h3>Loja Online</h3>
+                    <p>Uma loja online facilita vendas a qualquer hora e lugar!</p>
+                </div>
+                <div class="especialidades-box">
+                    <i class="bi bi-wordpress"></i>
+                    <h3>Blog</h3>
+                    <p>Um blog conecta e engaja seu público com conteúdo valioso!</p>
+                </div>
+            </div>
+        </section>
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <!-- Imagem da seção -->
+                    <div class="img-sobre">
+                        <img src="img/foto2.jpg" alt="Imagem de Guilherme Candida">
+                    </div>
+                    <!-- Texto e botões sociais -->
+                    <div class="txt-sobre">
+                        <h2>Muito Prazer, <span>Sou Guilherme Candida.</span></h2>
+                        <p>Olá! Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por explorar e criar soluções no universo tecnológico. Tenho interesse em áreas como desenvolvimento de software, redes e segurança da informação e estou sempre em busca de aprender e aplicar conhecimentos para resolver problemas reais.
+                            Minha trajetória é guiada pela curiosidade e pelo desejo de construir sistemas eficientes e inovadores. Além dos estudos, dedico meu tempo a projetos pessoais, onde aprimoro minhas habilidades em programação e infraestrutura.
+                            Acredito que cada desafio é uma oportunidade para crescer e desenvolver soluções inteligentes. Estou sempre aberto a colaborar em projetos, criar algo novo ou trocar ideias. Vamos nos conectar!</p>
+                        <!-- Botões sociais -->
+                        <div class="btn-social">
+                        <a href="https://www.instagram.com/amorimg1/" target="_blank" ><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/guillcodes" target="_blank" ><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/guilherme-candida-de-amorim-222989343/" target="_blank" ><button><i class="bi bi-linkedin"></i></button></a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portifolio" id="portifolio">
+            <div class="interface">
+                <h2 class="titulo">Meu <span>Portfólio</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(img/desenho.jpg);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(img/desenho.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(img/desenho.jpg);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="formulario" id="formulario">
+            <div class="interface">
+                <h2 class="titulo">Fala <span>Comigo</span></h2>
+                <form method="post" action="enviar.php">
+                    <input type="text" placeholder="Nome Completo:" required name="Nome">
+                    <input type="email" placeholder="E-mail:" required name="Email">
+                    <input type="text" placeholder="Número de Telefone:" name="Telefone">
+                    <textarea placeholder="Sua Mensagem" required name="Mensagem"></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="img/logo .png" alt="Logotipo GM">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/amorimg1/" target="_blank" ><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/guillcodes" target="_blank" ><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/guilherme-candida-de-amorim-222989343/" target="_blank" ><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="Gu1lhermecandidaw5@gmail.com">gu1lhermecandidaw5@gmail.com</a>
+                </p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+        <div class="footer-bottom">
+            <p>&copy;2025 Todos os direitos reservados. Guilherme Candida Amorim </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
