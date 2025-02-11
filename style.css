@@ -64,20 +64,20 @@ body {
     top: 0;
     right: -100%;
     z-index: 9999;
-    width: 70%;
+    width: 60%;
     background-color: #222;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
     transition: right 0.3s ease-in-out;
+    padding-top: 80px;
 }
 
 /* Estilos do menu */
 .menu-mobile nav ul {
     list-style: none;
     margin: 0;
-    padding: 60px 0 0 0;
+    padding: 20px 0 0 0;
     width: 100%;
 }
 
@@ -88,8 +88,8 @@ body {
 .menu-mobile nav ul li a {
     display: block;
     color: #fff;
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 300;
     padding: 15px 20px;
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
@@ -97,7 +97,7 @@ body {
 }
 
 .menu-mobile nav ul li a:hover {
-    background-color: #007BFF;
+    background-color: blue;
     color: white;
     border-radius: 8px;
 }
