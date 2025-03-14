@@ -214,15 +214,6 @@ section.topo-do-site .flex {
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-@keyframes flutuar {
-    0% {
-        top: 0;
-    }
-
-    100% {
-        top: 30px;
-    }
-}
 
 /*estilo especilidades*/
 section.especialidades {
@@ -464,21 +455,23 @@ footer .logo-footer img {
 
 footer .btn-social {
     display: flex;
-    gap: 15px; /* Espaço entre os botões de redes sociais */
-    justify-content: center; /* Centralizar os botões sociais */
+    gap: 15px; 
+    justify-content: center; 
 }
 
 .footer-bottom {
     background-color: none; 
-    color: #ecf0f1; /* Cor do texto */
-    text-align: center; /* Centralizar o texto */
-    padding: 10px 0; /* Espaçamento vertical */
-    font-size: 14px; /* Tamanho da fonte */
+    color: #ecf0f1; 
+    text-align: center; 
+    padding: 10px 0; 
+    font-size: 14px; 
     width: 100%;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1080px) {
+
     /* Classes gerais */
+
     .flex {
         flex-direction: column;
     }
@@ -511,17 +504,14 @@ footer .btn-social {
         width: 100%;
     }
 
-
     section.topo-do-site .flex {
         gap: 40px;
     }
-
 
     /* Especialidades */
     section.especialidades {
         padding: 40px;
     }
-
 
     .btn-social {
         text-align: center;

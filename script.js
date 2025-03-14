@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const updateMenuVisibility = () => {
         const isMobile = window.innerWidth <= 768;
         if (isMobile) {
-            btnAbrir.style.display = 'block'; // Mostrar botão abrir no mobile
+            btnAbrir.style.display = 'block'; 
         } else {
-            btnAbrir.style.display = 'none'; // Ocultar botão abrir no desktop
-            toggleMenu(false); // Fechar o menu caso esteja aberto
+            btnAbrir.style.display = 'none'; 
+            toggleMenu(false); 
         }
     };
 
@@ -32,3 +32,4 @@ document.addEventListener('DOMContentLoaded', () => {
     updateMenuVisibility();
     window.addEventListener('resize', updateMenuVisibility);
 });
+
