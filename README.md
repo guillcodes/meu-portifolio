@@ -95,5 +95,4 @@ npx http-server
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-
-⌨️ com ❤️ por [Guilherme Candida](https://github.com/guillcodes) 😊
+ [Guilherme Candida](https://github.com/guillcodes) 😊
